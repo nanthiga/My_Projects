@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    background-size: auto;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("/portfolio/nanthiga.jpg");
+    
+}
+.txt1{
+    float: right;
+    text-align: center;
+    text-transform: capitalize;
+    padding-right: 20%;
+    position: relative;
+    left: 8%;
+    margin-top: 10%;
+
+}
+.txt1 h2{
+    line-height: 1.0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+.txt1 h5{
+    font-weight: 600;
+    padding: 20px;
+    margin: 0%;
+    
+}
+.txt2 h2 {
+    color: #757575;
+    float: right;
+    text-align: left; 
+    position:relative;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 10px 0 10px 10px;
+    margin-top: 40% ;
+    left: 5%;
+    
+}
+a{
+    padding: 20px;
+    border: 0;
+    background-color:#F1F1F1 ;
+    justify-content: space-between;
+}
+a:hover{
+     background-color: rgba(128, 128, 128, 0.301);
+}
+.fa-download{
+    color: black;
+}
+.row{
+    display: grid;
+}
+.img{
+    position: relative;
+}
+.table1{
+    margin-top: 80%; 
+    padding: 5px ;
+    align-items: right;
+    border-spacing: 40px 10px;
+    position: relative;
+    left: 0%;
+}
+tr td img{
+    margin-top:0;
+    width: 370px;
+    height: auto;
+    position: relative;
+    left: 175%;
+}
+.aboutme{
+    float: right;
+    text-align: left; 
+    margin-left: 30px;
+    position:relative;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 0 10px 10px;
+    margin-right: 0;
+    left: -1%;
+}
+.aboutme h2{
+    color: #757575;
+    font-weight: 400;
+    font-size: 30px;
+}
+.aboutme p{
+    font-size: 20px;
+
+}
+.skill{
+    position: absolute;
+    max-width: 600px;
+    width: 100%;
+    float: right;
+    text-align: left; 
+    left: 45% ;
+    margin-top: 18%;
+}
+.skill h2{
+    color: #757575;
+    line-height: 1.1;
+    font-weight: 400;
+    font-size: 30px;
+}
+.skill-box{
+    width: 130%;
+    margin:25px 0;
+}
+.title{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: #75757E;
+}
+#skill-bar{
+    height:  30px;
+    margin: 15px;
+    background-color: #F1F1F1;
+    border: 1px;
+}
+.skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    background-color: #616161;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+}
+.Photography{
+    width: 95%;
+}
+.WebDesign{
+    width: 85%;
+}
+.Photoshop{
+    width: 80%;
+}
+.Download{
+    float: right;
+    left: -42%;
+   position: relative;
+   
+}
+.txt3{
+    position: relative;
+    left: 46%;
+    width: 50%;
+    text-align: center;
+    margin-top: 40%;
+    background-color: #616161;
+}
+.txt-3{
+    display: flex;
+    height: auto;
+    padding: 50px;
+    margin: 10px;
+}
+.txt-3 h3
+{
+    padding-right:100px;
+    color: #ffffff;
+    font-weight:400 ;
+    font-size: 20px;
+}
+
+div.Reputation h2
+  {
+    position: relative;
+    margin-top:5%;
+    left:45%;
+    font-weight: 400;
+    font-size: 30px;
+    color: #757575;
+  }
+  .img3
+  {
+    border-radius:60%;
+    margin-top: 1%;
+    position:relative;
+    height: 100px;
+    left: 45%;
+  }
+  #txt2 #txt1
+  {
+    position: relative;
+     top: -52%;
+     left: 58%;
+    padding-left: 0%;
+  }
+
+  table.table2
+   {
+    position:relative;
+    left: 58%;
+    margin: -7%;
+  }
+  #txt2
+  {
+    position: relative;
+    left:-260px;
+    top:10px;
+  }
+
+  #txt4 #txt3
+  {
+    position: relative;
+    margin-top:-20%;
+    left:52%;
+    padding-left: 0%;
+  }
+  table.table3
+   {
+    position:relative;
+    left:52%; 
+    margin-top: -7%;
+  }
+  #txt4
+  {
+    position: relative;
+    left:-280px;
+    margin-top: 10%;
+  }
+  .img4
+  {
+     border-radius:60%;
+    position:relative;
+    left: 45%;
+     margin-top: 10%;
+    height: 100px;
+   
+  }
+  #txt6 #txt5
+  {
+    position: relative;
+    margin-top: -7%;
+    left: 30%;
+    padding-left: 0%;
+  }
+  table.table4
+   {
+    position:relative;
+    margin-top: -7%;
+    left: 52%;
+ 
+  }
+  #txt6
+  {
+    position: relative;
+    left:-280px;
+    top:10px;
+  }
+  .img5
+  {
+    border-radius:60%;
+    position:relative;
+    left:45%;
+    height: 100px;
+    margin-top: 3%;
+   
+  }
+.price {
+    position: relative;
+    left: 45%;
+}
+.price h2{
+    color: #757575;
+    font-weight: 400;
+    font-size: 30px;
+}
+.table5 {
+    display: table;
+    width: auto;
+    box-shadow: 0px 5px 1px 7px rgb(243, 241, 241);
+ }
+ .table5:hover{
+    box-shadow: 0px 5px 1px 7px rgba(217, 214, 214, 0.611);
+ }
+ .table-row {
+    display: table-row;
+    width: auto;
+ }
+ .table-col {
+    float: left;
+    display: table-column;
+    width: 350px;
+    border: 1px solid gray;
+    padding: 20px 50px;
+    text-align: center;
+ }
+ .price button{
+    padding: 15px;
+ }
+#b1:hover{
+    background-color: #000000;
+    color: #ffffff;
+ }
+ #basic{
+    background-color: #616161;
+ }
+ #pro{
+    background-color: #000000;
+    color: #ffffff;
+ }
+ #Sign{
+    background-color: whitesmoke;
+ }
+.contact{
+    position: relative;
+    left: 45%;
+    margin-top: 3%;
+   
+ }
+ .contact h2{
+    color: #757575;
+    font-weight: 400;
+    font-size: 30px;
+
+ }
+ .contact p{
+    margin-top: -2%;
+    margin-left: 4%;
+ }
+ 
+ .fa-map-marker{
+    font-size: 40px;
+    color: #757575;
+ }
+ .fa-phone{
+    font-size: 40px;
+    color: #757575;
+ }
+ .fa-envelope{
+    font-size: 40px;
+    color: #757575;
+ }
+ .map{
+    position: relative;
+    left: 45%;
+    margin-top: 3%;
+
+ }
+.msg{
+    margin-left: 45%;
+    margin-top: 1%;
+}
+.msg h4{
+    font-weight: 300;
+    color: #757575;
+    font-size: 20px;
+}
+form input{
+    margin-top: 2%;
+    padding: 20px;
+    width: 99%;
+}
+#b2{
+    margin-top: 1%;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border: #ffffff;
+    justify-content: space-between;
+}
+footer{
+    position: relative;
+    left: 45%;
+    width: 850px;
+    margin-top:2%;
+    background-color: #F7F7F7;
+}
+footer div{
+    padding: 50px;
+}
+footer a{
+    background-color: #F7F7F7;
+    color:#757575;
+    margin-top: 7%;
+    left:15%;
+    position: relative;
+}
